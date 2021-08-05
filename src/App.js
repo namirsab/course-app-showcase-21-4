@@ -1,6 +1,7 @@
 import { Redirect, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import "./App.css";
+import CoursesPage from "./pages/CoursesPage";
 
 function App() {
   return <div className="App">
@@ -10,7 +11,7 @@ function App() {
     <main className="App__content">
     <Switch>
       <Route path="/courses">
-        Courses
+        <CoursesPage />
       </Route>
       <Route path="/students">
         Students
