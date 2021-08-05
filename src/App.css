@@ -1,3 +1,24 @@
 .App {
-  text-align: center;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 80px 1fr 80px;
 }
+
+.App__header {
+  background-color: salmon;
+  color: whitesmoke;
+}
+
+.App__content {
+  overflow-y: scroll;
+}
+
+.App__footer {
+  background-color: salmon;
+  color: whitesmoke;
+}
+
+
+
+
+

@@ -3,6 +3,10 @@ import "./App.css";
 
 function App() {
   return <div className="App">
+    <header className="App__header">
+      Header
+    </header>
+    <main className="App__content">
     <Switch>
       <Route path="/courses">
         Courses
@@ -14,6 +18,11 @@ function App() {
         <Redirect to="/courses" />
       </Route>
     </Switch>
+    </main>
+    
+    <footer className="App__footer">
+      Footer
+    </footer>
   </div>;
 }
 
