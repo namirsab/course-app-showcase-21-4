@@ -1,4 +1,5 @@
 import { Redirect, Route, Switch } from "react-router-dom";
+import Navigation from "./components/Navigation";
 import "./App.css";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     </main>
     
     <footer className="App__footer">
-      Footer
+      <Navigation />
     </footer>
   </div>;
 }
